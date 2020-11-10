@@ -1,2 +1,6 @@
 // pages/home/home.js
-Page({})
+Page({
+  tapGetUserInfo(event){
+    console.log(event.detail.userInfo);
+  }
+})

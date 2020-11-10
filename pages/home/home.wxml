@@ -1,3 +1,13 @@
 <!--pages/home/home.wxml-->
 <view>hello home</view>
 
+<button 
+size="mini"
+open-type="getUserInfo"
+bindgetuserinfo="tapGetUserInfo"
+>获取用户授权</button>
+
+<!-- 获取用户昵称进行展示 -->
+<open-data type="userNickName"></open-data>
+<!-- 获取用户图像进行展示 -->
+<open-data type="userAvatarUrl"></open-data>

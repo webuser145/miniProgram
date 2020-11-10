@@ -1,2 +1,4 @@
 <!--pages/about/about.wxml-->
 <view>hello about</view>
+
+<view>hello {{mes}}</view>
