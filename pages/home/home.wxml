@@ -1,5 +1,18 @@
 <!--pages/home/home.wxml-->
-<!-- 内置组件 -->
-<text class="title">hello smallCode</text>
-<button size="mini">btn</button>
-<image src="./img/1.jpg"></image>
+<!-- 03_知识点3 -->
+
+<!-- 1. 数据绑定 小程序中的数据需要Mustache {{}} 语法 -->
+
+<view>hello {{name}}</view>
+<view>这是我喜欢的{{content}}</view>
+
+<!-- 2. 列表渲染 wx:for; 所有数据都需要{{}}语法; item是内置的 -->
+
+<view wx:for="{{movies}}">{{item.name}}:{{item.time}}</view>
+
+<!-- 3. 事件监听 bindtap="函数" 单点事件-->
+
+<view>{{count}}</view>
+<button size="mini" bindtap="addCount">+</button>
+<button size="mini" bindtap="subCount">-</button>
+
