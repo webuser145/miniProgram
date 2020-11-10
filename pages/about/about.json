@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#a2e",
+  "navigationBarTitleText": "关于皮皮狗",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true
 }
