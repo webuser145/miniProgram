@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<!-- 内置组件 -->
+<text class="title">hello smallCode</text>
+<button size="mini">btn</button>
+<image src="./img/1.jpg"></image>
