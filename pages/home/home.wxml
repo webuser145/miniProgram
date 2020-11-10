@@ -3,3 +3,6 @@
 <text class="title">hello smallCode</text>
 <button size="mini">btn</button>
 <image src="./img/1.jpg"></image>
+
+<view>知识点1</view>
+<view>这是知识点一的内容啦啦啦啦</view>
