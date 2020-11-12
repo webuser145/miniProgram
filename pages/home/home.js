@@ -1,66 +1,27 @@
-// pages/home/home.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  data:{
+    message:'hello wx'
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  // 页面加载
+  onLoad(){
+    console.log('页面被加载了 onLoad');
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  // 页面显示
+  onShow(){
+    console.log('页面显示了 onShow');
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  // 页面初次渲染(显示后才会渲染,只执行一次)
+  onReady(){
+    console.log('页面初次渲染了 onReady');
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  // 页面隐藏
+  onHide(){
+    console.log('页面被隐藏了 onHide');
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  // 页面卸载
+  // 假设从首页跳转至关于页,然后点击返回按钮又再一次返回到首页
+  // 关于页则会被销毁,此函数执行
+  onUnload(){
+    console.log('页面被卸载了 onUnload');
   }
 })
