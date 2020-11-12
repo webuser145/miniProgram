@@ -6,3 +6,19 @@
 
 
 <view>{{message}}</view>
+
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+<view wx:for="{{list}}">{{item.title}}</view>
+
+<view bindtap="handleClickMes">{{mes}}</view>
