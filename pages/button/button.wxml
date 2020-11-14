@@ -1,0 +1,20 @@
+<!--pages/button/button.wxml-->
+
+<!-- 默认块级元素 -->
+
+<button>按钮</button>
+
+<!-- size="mini" 行内块 -->
+<button size="mini">按钮</button>
+<button size="mini" type="primary">按钮</button>
+<button size="mini" type="default">按钮</button>
+<button size="mini" type="warn">按钮</button>
+<!-- 镂空效果 -->
+<button size="mini" plain>按钮</button>
+
+<button size="mini" disabled>按钮</button>
+<button size="mini" loading>按钮</button>
+
+<!-- 指定按下去的样式 -->
+
+<button hover-class="btn">按钮</button>

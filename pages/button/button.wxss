@@ -1,0 +1,6 @@
+/* pages/button/button.wxss */
+
+.btn{
+  background-color:#f30;
+  color:#fff;
+}

@@ -1,0 +1,27 @@
+/* pages/scrollView/scrollView.wxss */
+
+.wrapper1{
+  background-color:#dd2;
+  white-space: nowrap;
+  margin-bottom:10px;
+}
+.box1{
+  width:100px;
+  height:100px;
+  background-color:#f30;
+  margin:5px;
+  display:inline-block;
+}
+
+.wrapper2{
+  background-color: #dd2;
+  height: 200px;
+}
+
+.box2{
+  width:100px;
+  height:100px;
+  background-color:#f30;
+  margin:5px;
+}
+

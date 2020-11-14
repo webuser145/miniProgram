@@ -1,0 +1,13 @@
+<!--pages/scrollView/scrollView.wxml-->
+
+<!-- 横向滚动 -->
+
+<scroll-view class="wrapper1" scroll-x>
+  <view wx:for="{{10}}" class="box1"></view>
+</scroll-view>
+
+<!-- 纵向滚动 -->
+
+<scroll-view class="wrapper2" scroll-y>  
+  <view wx:for="{{10}}" class="box2"></view>
+</scroll-view>

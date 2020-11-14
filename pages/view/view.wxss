@@ -1,0 +1,35 @@
+/* pages/view/view.wxss */
+
+.box{
+  width:100px;
+  height: 100px;
+  background-color:#f30;
+}
+
+.hover-box{
+  background-color:#f3e;
+  font-size:24px;
+}
+
+.father{
+  width:200px;
+  height:200px;
+  background-color:#ff7;
+  margin-top:10px;
+}
+
+.son{
+  width:100px;
+  height:100px;
+  background-color:#f30;
+}
+
+.hover-father{
+  background-color:#26d;
+  font-size:20px;
+}
+
+.hover-son{
+  background-color: #fa2;
+  font-size:25px;
+}

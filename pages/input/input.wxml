@@ -1,0 +1,42 @@
+<!--pages/input/input.wxml-->
+
+<input 
+bindfocus="focusTrigger"
+bindinput="inputTrigger"
+bindblur="blurTrigger"
+/>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 键盘的输入 -->
+<text>文本输入</text>
+<input type="text" />
+<text>数字输入</text>
+<input type="number" />
+<text>身份证输入</text>
+<input type="idcard" />
+<text>小数点输入</text>
+<input type="digit" />
+<text>密码框</text>
+<input type="text" password />
+<text>占位符</text>
+<input type="text" placeholder="请输入..." placeholder-style="color:#fe3"/>
+<text>confirm-type键盘的右下角</text>
+<text>发送</text>
+<input confirm-type="send" />
+<text>搜索</text>
+<input confirm-type="search" />
+<text>下一个</text>
+<input confirm-type="next" />
+<text>前往</text>
+<input confirm-type="go" />
+<text>完成</text>
+<input confirm-type="done" />

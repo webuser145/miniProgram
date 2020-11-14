@@ -1,0 +1,28 @@
+<!--pages/view/view.wxml-->
+
+<!-- view视图组件类似于div -->
+
+<view>你好啊</view>
+<view>很好</view>
+
+<!-- 添加点击样式 -->
+
+<view class="box" hover-class="hover-box" hover-start-time="0" hover-stay-time="{{0}}">box</view>
+
+<!-- 阻止本节点的祖先节点出现点击态 -->
+<!-- 
+  hover-stop-propagation=""
+  hover-stop-propagation="{{false}}"
+  即为false
+ -->
+
+<view class="father" hover-class="hover-father">
+  father
+  <view 
+  class="son" 
+  hover-class="hover-son"
+  hover-stop-propagation
+  >
+    son
+  </view>
+</view>
